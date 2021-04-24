@@ -1,2 +1,2 @@
 # re-boost
-ReScript declaractions for Boost
+ReScript declaractions for Boost.
