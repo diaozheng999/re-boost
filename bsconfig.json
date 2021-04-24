@@ -1,9 +1,9 @@
   
 {
   "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
-  "name": "boost",
-  "namespace": true,
-  "version": "0.1.0-unstable.3",
+  "name": "@nasi/re-boost",
+  "namespace": "boost",
+  "version": "0.1.0-unstable.4",
   "sources": {
     "dir" : "src",
     "subdirs" : true
