@@ -1,6 +1,6 @@
 {
   "name": "@nasi/re-boost",
-  "version": "0.1.0-unstable.4",
+  "version": "0.1.0-unstable.6",
   "description": "ReScript bindings for Boost",
   "scripts": {
     "build": "bsb -make-world",
@@ -19,7 +19,7 @@
   "author": "Simon Diao",
   "license": "MIT",
   "dependencies": {
-    "@nasi/boost": "0.1.0-unstable.3"
+    "@nasi/boost": "^0.1.0-unstable.4"
   },
   "devDependencies": {
     "bs-platform": "^9.0.1"
