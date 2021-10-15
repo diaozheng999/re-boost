@@ -1,6 +1,6 @@
 {
   "name": "@nasi/re-boost",
-  "version": "0.1.0-unstable.6",
+  "version": "0.1.0-unstable.7",
   "description": "ReScript bindings for Boost",
   "scripts": {
     "build": "bsb -make-world",

@@ -21,9 +21,9 @@ external compare : 'a abs_compare -> 'a t abs_compare = "compare"
 external eq : 'a abs_eq -> 'a t abs_eq = "eq"
   [@@bs.module "@nasi/boost"] [@@bs.scope "ds", "LinkedList"]
 
-external head : 'a t -> 'a node option = "head" [@@bs.send]
+external head : 'a t -> 'a node option = "head" [@@bs.get]
 
-external tail : 'a t -> 'a node option = "tail" [@@bs.send]
+external tail : 'a t -> 'a node option = "tail" [@@bs.get]
 
 external make : unit -> 'a t = "LinkedList"
   [@@bs.new] [@@bs.module "@nasi/boost"] [@@bs.scope "ds"]
